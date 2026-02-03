@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-import stakingImage from "@assets/staking-shark.jpg";
+import stakingImage from "@assets/staking-shark.png";
 import theatreImage from "@assets/shark-cinema.png";
 import pumpImage from "@assets/shacko-pump.png";
 
