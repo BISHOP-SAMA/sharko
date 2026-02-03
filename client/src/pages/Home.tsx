@@ -4,7 +4,7 @@ import { FloatingSharks } from "@/components/FloatingSharks";
 import { motion } from "framer-motion";
 import { ComicButton } from "@/components/ui/comic-button";
 import { SiX, SiDiscord } from "react-icons/si";
-import logoImage from "@assets/logo-shark.png";
+import logoImage from "@assets/Picsart_26-01-29_02-37-47-755_upscaled_1769650903265.png";
 
 export default function Home() {
   const scrollToForm = () => {
