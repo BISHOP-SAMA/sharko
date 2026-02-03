@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { ComicButton } from "@/components/ui/comic-button";
 import { SiX, SiDiscord } from "react-icons/si";
 import logoImage from "@assets/logo-shark.png";
+import heroImage from "@assets/hero-shark.png";
 
 export default function Home() {
   const scrollToForm = () => {
@@ -74,7 +75,7 @@ export default function Home() {
           className="relative z-10 w-full max-w-4xl mx-auto"
         >
           <img
-            src="/images/hero-shark.png"
+            src={heroImage}
             alt="Shacko Characters"
             className="w-full h-auto object-contain drop-shadow-2xl"
           />
